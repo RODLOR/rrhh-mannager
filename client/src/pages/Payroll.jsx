@@ -40,7 +40,7 @@ function Payroll() {
                 });
             })
             .catch(error => {
-                console.error('Error al agregar el pago:', error);
+                console.error('err:', error);
             });
     };
 

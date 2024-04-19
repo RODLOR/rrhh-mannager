@@ -42,13 +42,6 @@ function ExportDataButton() {
 const GeneralSettingsTab = () => {
     return (
         <>
-            {/* <div className="mb-4 flex justify-between items-center  border-b border-gray-700 ">
-                <span className="text-lg">Theme</span>
-                <select className="p-3 bg-white dark:bg-slate-900" name="theme" id="theme">
-                    <option className="" value="light">Dark</option>
-                    <option value="dark">Light</option>
-                </select>
-            </div> */}
             <div className="pb-3 mb-2 flex justify-between items-center  border-b border-gray-700 ">
                 <span className="text-lg">Export data</span>
                 <ExportDataButton />
@@ -108,7 +101,7 @@ const ProfileSettingsTab = () => {
                     closeFileInput()
                     setProfilePhoto(`http://localhost:4000/${val.data.user[0].profile_photo}`)
                     console.log('File uploaded successfully', response.data);
-                    alert('Foto de perfil actualizada correctamente');
+                    alert('Profile photo updated sucessfully');
                 })
                 .catch(error => {
                     console.error('Error uploading file', error);

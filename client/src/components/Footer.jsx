@@ -3,13 +3,13 @@ const Footer = () => {
     <footer className="bg-white text-slate-900 pt-6 pb-8 px-4 mx-auto border-t shadow">
         <div className="bg-white text-slate-900 pt-6 pb-8 px-4 mx-auto flex flex-col lg:flex-row justify-between">
                 <ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
-                    <li className="inline-block py-2 px-3 text-slate-900 uppercase font-medium tracking-wide text-xl">Institucion</li>
+                    <li className="inline-block py-2 px-3 text-slate-900 uppercase font-medium tracking-wide text-xl">Institution</li>
                     <li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-blue-600 no-underline hover:translate-x-5 transition-all delay-100">Privacidad</a>
                     </li>
                     <li><a href="#" className="inline-block py-2 px-3 text-gray-500 hover:text-blue-600 no-underline hover:translate-x-5 transition-all delay-100">Terminos del servicio</a></li>
                 </ul>
                 <div className="text-gray-700 flex flex-col w-full">
-                    <div className="inline-block py-2 px-3 text-slate-900 uppercase font-medium tracking-wide text-xl">Siguenos en</div>
+                    <div className="inline-block py-2 px-3 text-slate-900 uppercase font-medium tracking-wide text-xl">Follow us</div>
 
                     <div className="flex pl-4 justify-start mt-2">
                         <a className="flex items-center text-gray-300  mr-6 no-underline hover:scale-110 hover:text-blue-600 transition-all delay-100" href="#">
@@ -27,7 +27,7 @@ const Footer = () => {
                     </div>
                 </div>
                 </div>
-    <div className="mt-4 pt-6 text-gray-600 border-t text-sm border-gray-800 text-center"> © 2023 Todos los derechos reservados.</div>
+    <div className="mt-4 pt-6 text-gray-600 border-t text-sm border-gray-800 text-center"> © 2024 copyright reserved.</div>
 </footer>
     )
 }

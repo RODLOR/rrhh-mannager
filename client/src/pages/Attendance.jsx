@@ -32,8 +32,8 @@ export default function Attendance() {
             setMessage(''); // Clear previous message
         }
         else{
-            console.log("No hay ningun registro hasta el momento.")
-            alert("No hay ningun registro hasta el momento.")
+            console.log("There is not record so far.")
+            alert("There is not record so far.")
         }
         } catch (error) {
             console.error(error);
@@ -43,7 +43,7 @@ export default function Attendance() {
 
     return (
         <div className="text-white container mx-auto mt-10">
-            <h1 className="text-2xl mb-4">Registro de Asistencia</h1>
+            <h1 className="text-2xl mb-4">Attendance record</h1>
             <form onSubmit={handleSubmit} className="flex flex-col space-y-2">
                 <input
                     type="text"
