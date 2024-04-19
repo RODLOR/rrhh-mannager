@@ -1,5 +1,5 @@
 CREATE DATABASE `RRHH_mannager`;
-DROP DATABASE `RRHH_mannager`;
+
 
 USE `RRHH_mannager`;
 
